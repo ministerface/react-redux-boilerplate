@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import Main from '../components/Main';
 
-export default class App extends Component {
-  render() {
-    return (
-      <h1>Hello, world.</h1>
-    );
+
+function mapStateToProps(state) {
+  return {
+    todos: state.todos
   }
 }
+
+const App = connect(mapStateToProps)(Main);
+
+export default App;

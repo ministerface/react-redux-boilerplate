@@ -1,5 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import { Provider } from 'react-redux';
+import store, { history } from './store/index';
+
 import App from './containers/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+const router = (
+  <Provider store={store}>
+    <Router history={history}>
+      <Route path="/" component={App}>
+      </Route>
+    </Router>
+  </Provider>
+);
+
+
+render(router, document.getElementById('root'));

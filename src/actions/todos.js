@@ -1,13 +1,16 @@
 import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO } from '../constants/todos';
 
-export function addTodo(text) {
-  return { type: ADD_TODO, text }
-}
+export const addTodo = (text) => ({
+  type: ADD_TODO,
+  text
+});
 
-export function toggleTodo(index) {
-  return { type: TOGGLE_TODO, index }
-}
+export const toggleTodo = (index) => ({
+   type: TOGGLE_TODO,
+   index
+});
 
-export function removeTodo(index) {
-  return { type: REMOVE_TODO, index }
-}
+export const removeTodo = (index) => ({
+  type: REMOVE_TODO,
+  index
+});

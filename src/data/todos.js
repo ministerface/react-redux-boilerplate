@@ -1,15 +1,18 @@
 const todos = [
   {
     "name": "First task",
-    "status": "avoid"
+    "status": "avoid",
+    "finish": false
   },
   {
     "name": "First task",
-    "status": "avoid"
+    "status": "avoid",
+    "finish": false
   },
   {
     "name": "First task",
-    "status": "avoid"
+    "status": "avoid",
+    "finish": false
   },
 ];
 

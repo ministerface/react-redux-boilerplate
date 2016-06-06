@@ -16,7 +16,6 @@ export default class Header extends Component {
       <header id="topnav">
         <TopBar />
         <NavBar />
-          <div onClick={this.toggleTodo.bind(this)}>dsdsds</div>
       </header>
 
     );

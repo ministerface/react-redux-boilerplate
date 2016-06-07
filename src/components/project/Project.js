@@ -5,7 +5,6 @@ export default class Project extends Component {
   render() {
     return (
       <div>
-
         <div className="row">
           <div className="col-sm-12">
             <div className="btn-group pull-right m-t-15">
@@ -91,43 +90,6 @@ export default class Project extends Component {
 
             </div>
 
-            <div className="card-box">
-              <h4 className="m-t-0 m-b-20 header-title"><b>Friends <span className="text-muted">(154)</span></b></h4>
-
-              <div className="friend-list">
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-1.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-2.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-3.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-4.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-5.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-6.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-7.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#" className="text-center">
-                  <span className="extra-number">+89</span>
-                </a>
-              </div>
-            </div>
           </div>
 
           <div className="col-sm-5 col-md-4 col-lg-3">
@@ -188,43 +150,6 @@ export default class Project extends Component {
 
             </div>
 
-            <div className="card-box">
-              <h4 className="m-t-0 m-b-20 header-title"><b>Friends <span className="text-muted">(154)</span></b></h4>
-
-              <div className="friend-list">
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-1.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-2.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-3.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-4.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-5.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-6.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-7.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#" className="text-center">
-                  <span className="extra-number">+89</span>
-                </a>
-              </div>
-            </div>
           </div>
 
           <div className="col-sm-5 col-md-4 col-lg-3">
@@ -285,43 +210,6 @@ export default class Project extends Component {
 
             </div>
 
-            <div className="card-box">
-              <h4 className="m-t-0 m-b-20 header-title"><b>Friends <span className="text-muted">(154)</span></b></h4>
-
-              <div className="friend-list">
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-1.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-2.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-3.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-4.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-5.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-6.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-7.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#" className="text-center">
-                  <span className="extra-number">+89</span>
-                </a>
-              </div>
-            </div>
           </div>
 
 
@@ -383,43 +271,6 @@ export default class Project extends Component {
 
             </div>
 
-            <div className="card-box">
-              <h4 className="m-t-0 m-b-20 header-title"><b>Friends <span className="text-muted">(154)</span></b></h4>
-
-              <div className="friend-list">
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-1.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-2.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-3.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-4.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-5.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-6.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#">
-                  <img src="../../images/users/avatar-7.jpg" className="img-circle thumb-md" alt="friend" />
-                </a>
-
-                <a href="extra-profile.html#" className="text-center">
-                  <span className="extra-number">+89</span>
-                </a>
-              </div>
-            </div>
           </div>
 
 

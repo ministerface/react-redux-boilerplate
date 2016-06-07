@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Breadcrumbs from 'react-breadcrumbs';
-export default class DashBoard extends Component {
 
+export default class MainBoard extends Component {
   render() {
     return (
       <div>
@@ -29,10 +29,7 @@ export default class DashBoard extends Component {
 
           </div>
         </div>
-        
-
       </div>
     );
   }
-
 }

@@ -6,8 +6,8 @@ import store, { history } from './store/index';
 
 import App from './containers/App';
 import Project from './components/project/Project';
-import Todos from './components/todos/Todos';
-import DashBoard from './components/dashboard/DashBoard';
+import Todos from './containers/Todos';
+import DashBoard from './containers/DashBoard';
 
 const router = (
   <Provider store={store}>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Breadcrumbs from 'react-breadcrumbs';
 
-export default class Todos extends Component {
+export default class MainTodos extends Component {
 
   render() {
     return (

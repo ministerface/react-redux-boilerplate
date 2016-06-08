@@ -10,7 +10,7 @@ export default class MainTodos extends Component {
         <div className="row">
           <div className="col-sm-12">
             <div className="btn-group pull-right m-t-15">
-              <button type="button" className="btn btn-default dropdown-toggle waves-effect waves-light">Settings <span className="m-l-5"><i className="fa fa-cog"></i></span></button>
+              <button type="button" className="btn btn-default dropdown-toggle waves-effect waves-light">Настройки <span className="m-l-5"><i className="fa fa-cog"></i></span></button>
               <ul className="dropdown-menu" role="menu">
                 <li><a href="crm-opportunities.html#">Action</a></li>
                 <li><a href="crm-opportunities.html#">Another action</a></li>
@@ -46,7 +46,7 @@ export default class MainTodos extends Component {
           <div className="col-md-6">
             <a href="crm-opportunities.html#custom-modal" className="btn btn-default btn-md waves-effect waves-light m-b-30 pull-right">
               <i className="md md-add"></i> Новая задача
-              </a>
+            </a>
             <div className="h5 m-0">
               <span className="vertical-middle">Сортировать:&nbsp;&nbsp; </span>
               <div className="btn-group vertical-middle">
@@ -76,28 +76,7 @@ export default class MainTodos extends Component {
 
         </div>
 
-        <footer className="footer text-right">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-6">
-                2016 © Ubold.
-              </div>
-              <div className="col-xs-6">
-                <ul className="pull-right list-inline m-b-0">
-                  <li>
-                    <a href="crm-opportunities.html#">About</a>
-                  </li>
-                  <li>
-                    <a href="crm-opportunities.html#">Help</a>
-                  </li>
-                  <li>
-                    <a href="crm-opportunities.html#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
+        
       </div>
     );
   }

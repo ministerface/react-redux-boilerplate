@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import Breadcrumbs from 'react-breadcrumbs';
+import TodosGrid from './TodosGrid';
 
 export default class MainTodos extends Component {
 
   render() {
     return (
       <div>
-
-
-
         <div className="row">
           <div className="col-sm-12">
             <div className="btn-group pull-right m-t-15">
@@ -31,34 +29,35 @@ export default class MainTodos extends Component {
               routes={this.props.routes}
               params={this.props.params}
             />
-
-
           </div>
         </div>
+
         <div className="row">
           <div className="col-md-6">
 
             <form role="form">
               <div className="form-group contact-search m-b-30">
-                <input type="text" id="search" className="form-control" placeholder="Search..." />
+                <input type="text" id="search" className="form-control" placeholder="Поиск задачи..." />
                 <button type="submit" className="btn btn-white"><i className="fa fa-search"></i></button>
               </div>
             </form>
 
           </div>
           <div className="col-md-6">
-            <a href="crm-opportunities.html#custom-modal" className="btn btn-default btn-md waves-effect waves-light m-b-30 pull-right"><i className="md md-add"></i> Add New</a>
+            <a href="crm-opportunities.html#custom-modal" className="btn btn-default btn-md waves-effect waves-light m-b-30 pull-right">
+              <i className="md md-add"></i> Новая задача
+              </a>
             <div className="h5 m-0">
-              <span className="vertical-middle">Sort By:</span>
+              <span className="vertical-middle">Сортировать:&nbsp;&nbsp; </span>
               <div className="btn-group vertical-middle">
                 <label className="btn btn-white btn-md waves-effect active">
-                  <input type="checkbox" /> Status
+                  Статус
                 </label>
                 <label className="btn btn-white btn-md waves-effect">
-                  <input type="checkbox"  /> Type
+                  Тип
                 </label>
                 <label className="btn btn-white btn-md waves-effect">
-                  <input type="checkbox" /> Name
+                  Дата
                 </label>
               </div>
             </div>
@@ -67,186 +66,11 @@ export default class MainTodos extends Component {
         </div>
 
         <div className="row">
-          <div className="col-lg-8">
-
-            <div className="card-box m-b-10">
-              <div className="table-box opport-box">
-                <div className="table-detail checkbx-detail">
-                  <div className="checkbox checkbox-primary m-r-15">
-                    <input id="checkbox1" type="checkbox" />
-                    <label htmlFor="checkbox1"></label>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <div className="member-info">
-                    <h4 className="m-t-0"><b>Enveto Market Pty Ltd. </b></h4>
-                    <p className="text-dark m-b-5"><b>Category: </b> <span className="text-muted">Branch manager</span></p>
-                    <p className="text-dark m-b-0"><b>Active: </b> <span className="text-muted">2 hours ago</span></p>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <p className="text-dark m-b-5"><b>Email:</b> <span className="text-muted">coderthemes@gmail.com</span></p>
-                  <p className="text-dark m-b-0"><b>Contact:</b> <span className="text-muted">+12 34567890</span></p>
-                </div>
-
-                <div className="table-detail lable-detail">
-                  <span className="label label-info">Hot</span>
-                </div>
-
-                <div className="table-detail table-actions-bar">
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-edit"></i></a>
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-close"></i></a>
-                </div>
-              </div>
-            </div>
-
-
-            <div className="card-box m-b-10">
-              <div className="table-box opport-box">
-                <div className="table-detail checkbx-detail">
-                  <div className="checkbox checkbox-primary m-r-15">
-                    <input id="checkbox2" type="checkbox" />
-                    <label htmlFor="checkbox2"></label>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <div className="member-info">
-                    <h4 className="m-t-0"><b>The Coca-Cola Company </b></h4>
-                    <p className="text-dark m-b-5"><b>Category: </b> <span className="text-muted">Branch manager</span></p>
-                    <p className="text-dark m-b-0"><b>Active: </b> <span className="text-muted">2 hours ago</span></p>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <p className="text-dark m-b-5"><b>Email:</b> <span className="text-muted">coderthemes@gmail.com</span></p>
-                  <p className="text-dark m-b-0"><b>Contact:</b> <span className="text-muted">+12 34567890</span></p>
-                </div>
-
-                <div className="table-detail lable-detail">
-                  <span className="label label-purple">Cold</span>
-                </div>
-
-                <div className="table-detail table-actions-bar">
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-edit"></i></a>
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-close"></i></a>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="card-box m-b-10">
-              <div className="table-box opport-box">
-                <div className="table-detail checkbx-detail">
-                  <div className="checkbox checkbox-primary m-r-15">
-                    <input id="checkbox3" type="checkbox" />
-                    <label htmlFor="checkbox3"></label>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <div className="member-info">
-                    <h4 className="m-t-0"><b>Dribbble LLC </b></h4>
-                    <p className="text-dark m-b-5"><b>Category: </b> <span className="text-muted">Branch manager</span></p>
-                    <p className="text-dark m-b-0"><b>Active: </b> <span className="text-muted">2 hours ago</span></p>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <p className="text-dark m-b-5"><b>Email:</b> <span className="text-muted">coderthemes@gmail.com</span></p>
-                  <p className="text-dark m-b-0"><b>Contact:</b> <span className="text-muted">+12 34567890</span></p>
-                </div>
-
-                <div className="table-detail lable-detail">
-                  <span className="label label-warning">In-progress</span>
-                </div>
-
-                <div className="table-detail table-actions-bar">
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-edit"></i></a>
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-close"></i></a>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="card-box m-b-10">
-              <div className="table-box opport-box">
-                <div className="table-detail checkbx-detail">
-                  <div className="checkbox checkbox-primary m-r-15">
-                    <input id="checkbox4" type="checkbox" />
-                    <label htmlFor="checkbox4"></label>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <div className="member-info">
-                    <h4 className="m-t-0"><b>Coderthemes design </b></h4>
-                    <p className="text-dark m-b-5"><b>Category: </b> <span className="text-muted">Branch manager</span></p>
-                    <p className="text-dark m-b-0"><b>Active: </b> <span className="text-muted">2 hours ago</span></p>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <p className="text-dark m-b-5"><b>Email:</b> <span className="text-muted">coderthemes@gmail.com</span></p>
-                  <p className="text-dark m-b-0"><b>Contact:</b> <span className="text-muted">+12 34567890</span></p>
-                </div>
-
-                <div className="table-detail lable-detail">
-                  <span className="label label-danger">Lost</span>
-                </div>
-
-                <div className="table-detail table-actions-bar">
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-edit"></i></a>
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-close"></i></a>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="card-box">
-              <div className="table-box opport-box">
-                <div className="table-detail checkbx-detail">
-                  <div className="checkbox checkbox-primary m-r-15">
-                    <input id="checkbox5" type="checkbox" />
-                    <label htmlFor="checkbox5"></label>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <div className="member-info">
-                    <h4 className="m-t-0"><b>WrapMarket LLC </b></h4>
-                    <p className="text-dark m-b-5"><b>Category: </b> <span className="text-muted">Branch manager</span></p>
-                    <p className="text-dark m-b-0"><b>Active: </b> <span className="text-muted">2 hours ago</span></p>
-                  </div>
-                </div>
-
-                <div className="table-detail">
-                  <p className="text-dark m-b-5"><b>Email:</b> <span className="text-muted">coderthemes@gmail.com</span></p>
-                  <p className="text-dark m-b-0"><b>Contact:</b> <span className="text-muted">+12 34567890</span></p>
-                </div>
-
-                <div className="table-detail lable-detail">
-                  <span className="label label-success">Won</span>
-                </div>
-
-                <div className="table-detail table-actions-bar">
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-edit"></i></a>
-                  <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-close"></i></a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
+          <TodosGrid todos={this.props.todos} {...this.props}/>
           <div className="col-lg-4">
             <div className="card-box">
-              <h4 className="font-bold m-t-0 m-b-20 text-dark">Status Chart</h4>
-              <div id="pie-chart"></div>
+              <h4 className="font-bold m-t-0 m-b-20 text-dark">Активность</h4>
+
             </div>
           </div>
 

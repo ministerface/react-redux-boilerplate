@@ -10,13 +10,21 @@ export const createFantomTodo = (id, name, text, project) => ({
 });
 
 
-export const addTodo = (id, name, text, project) => ({
-  type: ADD_TODO,
-  id,
-  name,
-  text,
-  project
-});
+export function addTodo (id, name, text, project) {
+  return (dispatch) => {
+
+      dispatch({
+        type: CREATE_FANTOM_TODO
+      })
+
+      setTimeout(() => {
+        dispatch({
+          type: TOGGLE_TODO
+
+        })
+      },2000)
+    }
+};
 
 export const toggleTodo = (index) => ({
    type: TOGGLE_TODO,

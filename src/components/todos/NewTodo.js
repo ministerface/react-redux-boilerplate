@@ -3,6 +3,12 @@ import { Link } from 'react-router';
 import Select from '../ui/Select';
 
 export default class NewTodo extends Component {
+
+  onHandler(e) {
+    e.preventDefault();
+    this.props.addTodo();
+  }
+
   render() {
     return (
       <div className="row">
@@ -13,7 +19,7 @@ export default class NewTodo extends Component {
               Форма добавления
             </p>
 
-            <form>
+            <form onSubmit={this.onHandler.bind(this)}>
               <div className="form-group">
                 <label htmlFor="userName">Название</label>
                 <input type="text" required="" placeholder="Моя новая задача" className="form-control" id="userName" />

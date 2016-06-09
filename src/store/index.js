@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router';
 import rootReducer from '../reducers/index';
 import { loadState, saveState } from './localStorage';
 import createLogger from 'redux-logger';
+import thunkMiddleware from 'redux-thunk';
 
 import todos from '../data/todos';
 
@@ -15,11 +16,18 @@ const currentState = {
 const logger = createLogger();
 
 //const defaultState = loadState(currentState);
+/*
 const store = createStore(
    rootReducer,
    currentState,
    applyMiddleware(logger)
  );
+*/
+
+ const store = compose(
+     applyMiddleware(thunkMiddleware),
+     applyMiddleware(logger)
+   )(createStore)(rootReducer, currentState);
 
 store.subscribe(() => {
   saveState(store.getState());

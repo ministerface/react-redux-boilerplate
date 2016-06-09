@@ -15,10 +15,16 @@ export default class TodosGrid extends Component {
 
   }
   render() {
+    const childrenWithProps = React.Children.map(this.props.children,
+     (child) => React.cloneElement(child, {
+       addTodo: this.props.addTodo
+     })
+    );
+
     return (
       <div className="col-lg-8">
-          { this.props.children }
-          {this.todosTemplate}
+        {childrenWithProps}
+        {this.todosTemplate}
       </div>
 
     );

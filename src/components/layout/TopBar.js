@@ -126,7 +126,7 @@ export default class TopBar extends Component {
 
               <li className="dropdown">
                 <a href="crm-opportunities.html" className="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true">
-                  <img src="images/users/avatar-1.jpg" alt="user-img" className="img-circle" /> </a>
+                  <img src="/images/users/avatar-1.jpg" alt="user-img" className="img-circle" /> </a>
                 <ul className="dropdown-menu">
                   <li><a href="javascript:void(0)"><i className="ti-user m-r-5"></i> Profile</a></li>
                   <li><a href="javascript:void(0)"><i className="ti-settings m-r-5"></i> Settings</a></li>

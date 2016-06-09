@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 export default class NewTodo extends Component {
   render() {
@@ -37,11 +38,11 @@ export default class NewTodo extends Component {
 
                                 <div className="form-group text-right m-b-0">
                                     <button className="btn btn-primary waves-effect waves-light" type="submit">
-                                        Submit
+                                        Создать
                                     </button>
-                                    <button type="reset" className="btn btn-default waves-effect waves-light m-l-5">
-                                        Cancel
-                                    </button>
+                                    <Link to="/todos" className="btn btn-default waves-effect waves-light m-l-5">
+                                        Отмена
+                                    </Link>
                                 </div>
 
                             </form>

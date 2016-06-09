@@ -1,8 +1,21 @@
-import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO } from '../constants/todos';
+import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO, CREATE_FANTOM_TODO } from '../constants/todos';
 
-export const addTodo = (text) => ({
+
+export const createFantomTodo = (id, name, text, project) => ({
+  type: CREATE_FANTOM_TODO,
+  id,
+  name,
+  text,
+  project
+});
+
+
+export const addTodo = (id, name, text, project) => ({
   type: ADD_TODO,
-  text
+  id,
+  name,
+  text,
+  project
 });
 
 export const toggleTodo = (index) => ({

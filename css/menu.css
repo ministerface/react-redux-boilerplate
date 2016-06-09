@@ -17,13 +17,6 @@ File: Menu
   min-height: 62px;
 }
 
-#topnav .navigation-menu li:first-child a.active {
-      color: #5A85B3;
-}
-
-#topnav .navigation-menu li:first-child a.active i {
-      color: #5A85B3;
-}
 
 #topnav .has-submenu a.active  {
   color: #2b90d9;

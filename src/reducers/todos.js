@@ -1,8 +1,11 @@
-import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO } from '../constants/todos';
+import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO, CREATE_FANTOM_TODO } from '../constants/todos';
 
 function todos(state = [], action) {
 
   switch (action.type) {
+
+    case CREATE_FANTOM_TODO:
+     
     case ADD_TODO:
 
     case TOGGLE_TODO:

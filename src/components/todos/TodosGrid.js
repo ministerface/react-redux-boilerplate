@@ -9,7 +9,7 @@ export default class TodosGrid extends Component {
     const { todos } = props;
     this.todosTemplate = todos.map(function(item, index) {
       return (
-        <Todo key={item.id} todo={item} />
+        <Todo key={item.id} todo={item}/>
       )
     })
 
@@ -17,6 +17,7 @@ export default class TodosGrid extends Component {
   render() {
     return (
       <div className="col-lg-8">
+          { this.props.children }
           {this.todosTemplate}
       </div>
 

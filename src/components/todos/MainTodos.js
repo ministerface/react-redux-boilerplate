@@ -1,8 +1,17 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import Breadcrumbs from 'react-breadcrumbs';
 import TodosGrid from './TodosGrid';
 
 export default class MainTodos extends Component {
+  constructor(props){
+    super(props);
+  }
+
+  createFantomTodo(e) {
+    e.preventDefault();
+    this.props.createFantomTodo();
+  }
 
   render() {
     return (
@@ -43,10 +52,9 @@ export default class MainTodos extends Component {
             </form>
 
           </div>
+
           <div className="col-md-6">
-            <a href="crm-opportunities.html#custom-modal" className="btn btn-default btn-md waves-effect waves-light m-b-30 pull-right">
-              <i className="md md-add"></i> Новая задача
-            </a>
+            <Link to="/todos/new" activeClassName="none" className="btn btn-default btn-md waves-effect waves-light m-b-30 pull-right"> <i className="md md-add"></i> Новая задача </Link>
             <div className="h5 m-0">
               <span className="vertical-middle">Сортировать:&nbsp;&nbsp; </span>
               <div className="btn-group vertical-middle">
@@ -76,7 +84,7 @@ export default class MainTodos extends Component {
 
         </div>
 
-        
+
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import NavLink from './NavLink';
 
 export default class NavBar extends Component {
   render() {
@@ -9,16 +10,13 @@ export default class NavBar extends Component {
           <div id="navigation">
             <ul className="navigation-menu">
               <li className="has-submenu">
-                <Link to="/" activeClassName="active"><i className="md md-dashboard"></i>Главная</Link>
+                <NavLink onlyActiveOnIndex={true} to="/"><i className="md md-dashboard"></i>Главная</NavLink>
               </li>
               <li className="has-submenu">
-                <Link to="/todos" activeClassName="active"><i className="md md-color-lens"></i>Задачи</Link>
-
+                <NavLink to="/todos"><i className="md md-color-lens"></i>Задачи</NavLink>
               </li>
-
-
               <li className="has-submenu">
-                <Link to="/project" activeClassName="active"><i className="md md-layers"></i>Проекты</Link>
+                <NavLink to="/project"><i className="md md-layers"></i>Проекты</NavLink>
               </li>
               <li className="has-submenu">
                 <a href="crm-opportunities.html#"><i className="md md-class"></i>Финансы</a>

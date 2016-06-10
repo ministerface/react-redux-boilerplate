@@ -39,53 +39,35 @@ export default class Project extends Component {
 
                 <ul className="list-inline status-list m-t-20">
                   <li>
-                    <h3 className="text-primary m-b-5">456</h3>
-                    <p className="text-muted">Followings</p>
+                    <h3 className="text-primary m-b-5">60</h3>
+                    <p className="text-muted">Срок</p>
                   </li>
 
                   <li>
-                    <h3 className="text-success m-b-5">5864</h3>
-                    <p className="text-muted">Followers</p>
+                    <h3 className="text-success m-b-5">50 000</h3>
+                    <p className="text-muted">Бюджет</p>
                   </li>
                 </ul>
 
-                <button type="button" className="btn btn-pink btn-custom btn-rounded waves-effect waves-light">Follow</button>
+                <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">About Me</h4>
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <p className="text-muted font-13 m-b-30">
-                  Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  Разработка сервиса для безопасных сделок в интернете
                 </p>
 
                 <div className="text-left">
-                  <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Johnathan Deo</span></p>
+                  <p className="text-muted font-13"><strong>Заказчик :</strong> <span className="m-l-15">Роман</span></p>
 
-                  <p className="text-muted font-13"><strong>Mobile :</strong><span className="m-l-15">(123) 123 1234</span></p>
+                  <p className="text-muted font-13"><strong>Телефон :</strong><span className="m-l-15">8 (123) 123-12-34</span></p>
 
-                  <p className="text-muted font-13"><strong>Email :</strong> <span className="m-l-15">coderthemes@gmail.com</span></p>
+                  <p className="text-muted font-13"><strong>E-mail :</strong> <span className="m-l-15">test@gmail.com</span></p>
 
-                  <p className="text-muted font-13"><strong>Location :</strong> <span className="m-l-15">USA</span></p>
-
-                </div>
-
-                <div className="button-list m-t-20">
-                  <button type="button" className="btn btn-facebook waves-effect waves-light">
-                    <i className="fa fa-facebook"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-twitter waves-effect waves-light">
-                    <i className="fa fa-twitter"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-linkedin waves-effect waves-light">
-                    <i className="fa fa-linkedin"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-dribbble waves-effect waves-light">
-                    <i className="fa fa-dribbble"></i>
-                  </button>
+                  <p className="text-muted font-13"><strong>Город :</strong> <span className="m-l-15">Новочеркасск</span></p>
 
                 </div>
+
               </div>
 
             </div>
@@ -99,53 +81,35 @@ export default class Project extends Component {
 
                 <ul className="list-inline status-list m-t-20">
                   <li>
-                    <h3 className="text-primary m-b-5">456</h3>
-                    <p className="text-muted">Followings</p>
+                    <h3 className="text-primary m-b-5">60</h3>
+                    <p className="text-muted">Срок</p>
                   </li>
 
                   <li>
-                    <h3 className="text-success m-b-5">5864</h3>
-                    <p className="text-muted">Followers</p>
+                    <h3 className="text-success m-b-5">50 000</h3>
+                    <p className="text-muted">Бюджет</p>
                   </li>
                 </ul>
 
-                <button type="button" className="btn btn-pink btn-custom btn-rounded waves-effect waves-light">Follow</button>
+                <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">About Me</h4>
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <p className="text-muted font-13 m-b-30">
-                  Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  Разработка сервиса для безопасных сделок в интернете
                 </p>
 
                 <div className="text-left">
-                  <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Johnathan Deo</span></p>
+                  <p className="text-muted font-13"><strong>Заказчик :</strong> <span className="m-l-15">Роман</span></p>
 
-                  <p className="text-muted font-13"><strong>Mobile :</strong><span className="m-l-15">(123) 123 1234</span></p>
+                  <p className="text-muted font-13"><strong>Телефон :</strong><span className="m-l-15">8 (123) 123-12-34</span></p>
 
-                  <p className="text-muted font-13"><strong>Email :</strong> <span className="m-l-15">coderthemes@gmail.com</span></p>
+                  <p className="text-muted font-13"><strong>E-mail :</strong> <span className="m-l-15">test@gmail.com</span></p>
 
-                  <p className="text-muted font-13"><strong>Location :</strong> <span className="m-l-15">USA</span></p>
-
-                </div>
-
-                <div className="button-list m-t-20">
-                  <button type="button" className="btn btn-facebook waves-effect waves-light">
-                    <i className="fa fa-facebook"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-twitter waves-effect waves-light">
-                    <i className="fa fa-twitter"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-linkedin waves-effect waves-light">
-                    <i className="fa fa-linkedin"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-dribbble waves-effect waves-light">
-                    <i className="fa fa-dribbble"></i>
-                  </button>
+                  <p className="text-muted font-13"><strong>Город :</strong> <span className="m-l-15">Новочеркасск</span></p>
 
                 </div>
+
               </div>
 
             </div>
@@ -159,59 +123,40 @@ export default class Project extends Component {
 
                 <ul className="list-inline status-list m-t-20">
                   <li>
-                    <h3 className="text-primary m-b-5">456</h3>
-                    <p className="text-muted">Followings</p>
+                    <h3 className="text-primary m-b-5">60</h3>
+                    <p className="text-muted">Срок</p>
                   </li>
 
                   <li>
-                    <h3 className="text-success m-b-5">5864</h3>
-                    <p className="text-muted">Followers</p>
+                    <h3 className="text-success m-b-5">50 000</h3>
+                    <p className="text-muted">Бюджет</p>
                   </li>
                 </ul>
 
-                <button type="button" className="btn btn-pink btn-custom btn-rounded waves-effect waves-light">Follow</button>
+                <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">About Me</h4>
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <p className="text-muted font-13 m-b-30">
-                  Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  Разработка сервиса для безопасных сделок в интернете
                 </p>
 
                 <div className="text-left">
-                  <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Johnathan Deo</span></p>
+                  <p className="text-muted font-13"><strong>Заказчик :</strong> <span className="m-l-15">Роман</span></p>
 
-                  <p className="text-muted font-13"><strong>Mobile :</strong><span className="m-l-15">(123) 123 1234</span></p>
+                  <p className="text-muted font-13"><strong>Телефон :</strong><span className="m-l-15">8 (123) 123-12-34</span></p>
 
-                  <p className="text-muted font-13"><strong>Email :</strong> <span className="m-l-15">coderthemes@gmail.com</span></p>
+                  <p className="text-muted font-13"><strong>E-mail :</strong> <span className="m-l-15">test@gmail.com</span></p>
 
-                  <p className="text-muted font-13"><strong>Location :</strong> <span className="m-l-15">USA</span></p>
-
-                </div>
-
-                <div className="button-list m-t-20">
-                  <button type="button" className="btn btn-facebook waves-effect waves-light">
-                    <i className="fa fa-facebook"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-twitter waves-effect waves-light">
-                    <i className="fa fa-twitter"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-linkedin waves-effect waves-light">
-                    <i className="fa fa-linkedin"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-dribbble waves-effect waves-light">
-                    <i className="fa fa-dribbble"></i>
-                  </button>
+                  <p className="text-muted font-13"><strong>Город :</strong> <span className="m-l-15">Новочеркасск</span></p>
 
                 </div>
+
               </div>
 
             </div>
 
           </div>
-
 
           <div className="col-sm-5 col-md-4 col-lg-3">
             <div className="profile-detail card-box">
@@ -220,59 +165,40 @@ export default class Project extends Component {
 
                 <ul className="list-inline status-list m-t-20">
                   <li>
-                    <h3 className="text-primary m-b-5">456</h3>
-                    <p className="text-muted">Followings</p>
+                    <h3 className="text-primary m-b-5">60</h3>
+                    <p className="text-muted">Срок</p>
                   </li>
 
                   <li>
-                    <h3 className="text-success m-b-5">5864</h3>
-                    <p className="text-muted">Followers</p>
+                    <h3 className="text-success m-b-5">50 000</h3>
+                    <p className="text-muted">Бюджет</p>
                   </li>
                 </ul>
 
-                <button type="button" className="btn btn-pink btn-custom btn-rounded waves-effect waves-light">Follow</button>
+                <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">About Me</h4>
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <p className="text-muted font-13 m-b-30">
-                  Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+                  Разработка сервиса для безопасных сделок в интернете
                 </p>
 
                 <div className="text-left">
-                  <p className="text-muted font-13"><strong>Full Name :</strong> <span className="m-l-15">Johnathan Deo</span></p>
+                  <p className="text-muted font-13"><strong>Заказчик :</strong> <span className="m-l-15">Роман</span></p>
 
-                  <p className="text-muted font-13"><strong>Mobile :</strong><span className="m-l-15">(123) 123 1234</span></p>
+                  <p className="text-muted font-13"><strong>Телефон :</strong><span className="m-l-15">8 (123) 123-12-34</span></p>
 
-                  <p className="text-muted font-13"><strong>Email :</strong> <span className="m-l-15">coderthemes@gmail.com</span></p>
+                  <p className="text-muted font-13"><strong>E-mail :</strong> <span className="m-l-15">test@gmail.com</span></p>
 
-                  <p className="text-muted font-13"><strong>Location :</strong> <span className="m-l-15">USA</span></p>
-
-                </div>
-
-                <div className="button-list m-t-20">
-                  <button type="button" className="btn btn-facebook waves-effect waves-light">
-                    <i className="fa fa-facebook"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-twitter waves-effect waves-light">
-                    <i className="fa fa-twitter"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-linkedin waves-effect waves-light">
-                    <i className="fa fa-linkedin"></i>
-                  </button>
-
-                  <button type="button" className="btn btn-dribbble waves-effect waves-light">
-                    <i className="fa fa-dribbble"></i>
-                  </button>
+                  <p className="text-muted font-13"><strong>Город :</strong> <span className="m-l-15">Новочеркасск</span></p>
 
                 </div>
+
               </div>
 
             </div>
 
           </div>
-
 
 
         </div>

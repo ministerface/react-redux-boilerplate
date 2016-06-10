@@ -1,12 +1,28 @@
 import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO, CREATE_FANTOM_TODO } from '../constants/todos';
 
+import { v4 } from 'node-uuid';
+
+
+
 function todos(state = [], action) {
 
   switch (action.type) {
 
-    case CREATE_FANTOM_TODO:
-     
     case ADD_TODO:
+
+    return [
+      {
+        id: v4(),
+        name: action.name,
+        project: action.project,
+        text: action.text,
+        status: "Новая",
+        created: Date.now(),
+        updated: Date.now()
+      },
+      ...state
+    ]
+
 
     case TOGGLE_TODO:
       return state.map((todo, index) => {

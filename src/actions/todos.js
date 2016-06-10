@@ -1,30 +1,27 @@
-import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO, CREATE_FANTOM_TODO } from '../constants/todos';
+import {
+  ADD_TODO,
+  TOGGLE_TODO,
+  REMOVE_TODO,
+  CREATE_FANTOM_TODO
+ } from '../constants/todos';
+
+ import { ROUTING } from '../constants/Routing';
 
 
-export const createFantomTodo = (id, name, text, project) => ({
-  type: CREATE_FANTOM_TODO,
-  id,
-  name,
-  text,
-  project
+
+
+export const addTodo = (id, name, text, project) => ({
+    type: ADD_TODO,
+    name,
+    text,
+    project
 });
 
-
-export function addTodo (id, name, text, project) {
-  return (dispatch) => {
-
-      dispatch({
-        type: CREATE_FANTOM_TODO
-      })
-
-      setTimeout(() => {
-        dispatch({
-          type: TOGGLE_TODO
-
-        })
-      },2000)
-    }
-};
+export const redirect = () => ({
+  type: ROUTING,
+  method: 'push',
+  nextUrl: '/todos'
+});
 
 export const toggleTodo = (index) => ({
    type: TOGGLE_TODO,

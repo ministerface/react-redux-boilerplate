@@ -5,6 +5,7 @@ import rootReducer from '../reducers/index';
 import { loadState, saveState } from './localStorage';
 import createLogger from 'redux-logger';
 import thunkMiddleware from 'redux-thunk';
+import { redirect } from '../middlewares/redirect';
 
 import todos from '../data/todos';
 
@@ -26,6 +27,7 @@ const store = createStore(
 
  const store = compose(
      applyMiddleware(thunkMiddleware),
+     applyMiddleware(redirect),
      applyMiddleware(logger)
    )(createStore)(rootReducer, currentState);
 

@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 export default class Select extends Component {
   render() {
     return (
-        <select className="form-control">
+        <select name={this.props.name} className="form-control">
           <option>Не важно</option>
-          <option>Interactive Home</option>
-          <option>RuPlans</option>
-          <option>Secure Transaction</option>
+          <option value="Interactive Home">Interactive Home</option>
+          <option value="RuPlans">RuPlans</option>
+          <option value="Secure Transaction">Secure Transaction</option>
         </select>
     );
   }

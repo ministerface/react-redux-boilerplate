@@ -10,7 +10,7 @@ import {
 
 
 
-export const addTodo = (id, name, text, project) => ({
+export const addTodo = (name, text, project) => ({
     type: ADD_TODO,
     name,
     text,

@@ -16,7 +16,7 @@ const currentState = {
 
 const logger = createLogger();
 
-//const defaultState = loadState(currentState);
+const defaultState = loadState(currentState);
 /*
 const store = createStore(
    rootReducer,
@@ -29,7 +29,7 @@ const store = createStore(
      applyMiddleware(thunkMiddleware),
      applyMiddleware(redirect),
      applyMiddleware(logger)
-   )(createStore)(rootReducer, currentState);
+   )(createStore)(rootReducer, defaultState);
 
 store.subscribe(() => {
   saveState(store.getState());

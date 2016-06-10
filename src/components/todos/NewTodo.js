@@ -12,7 +12,6 @@ export default class NewTodo extends Component {
     const project = form.querySelector('[name="project"]').value;
     const name = this.refs.name.value;
     const text = this.refs.text.value;
-
     this.props.addTodo(name, text, project);
     this.props.redirect();
   }

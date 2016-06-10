@@ -11,7 +11,9 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-  return bindActionCreators(actionTodos, dispatch);
+  return {
+    actionTodos: bindActionCreators(actionTodos, dispatch)
+  }
 }
 
 

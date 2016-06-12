@@ -8,7 +8,7 @@ export default class MainBoard extends Component {
         <div className="row">
           <div className="col-sm-12">
             <div className="btn-group pull-right m-t-15">
-              <button type="button" className="btn btn-default dropdown-toggle waves-effect waves-light">Settings <span className="m-l-5"><i className="fa fa-cog"></i></span></button>
+              <button type="button" className="btn btn-default dropdown-toggle waves-effect waves-light">Настройки <span className="m-l-5"><i className="fa fa-cog"></i></span></button>
               <ul className="dropdown-menu" role="menu">
                 <li><a href="crm-opportunities.html#">Action</a></li>
                 <li><a href="crm-opportunities.html#">Another action</a></li>

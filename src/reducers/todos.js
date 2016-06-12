@@ -37,6 +37,14 @@ function todos(state = [], action) {
 
     case REMOVE_TODO:
 
+
+        return [
+          ...state.slice(0, action.index),
+          ...state.slice(action.index + 1)
+        ]
+
+
+
     default:
       return state;
   }

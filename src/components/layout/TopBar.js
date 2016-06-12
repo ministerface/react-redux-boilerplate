@@ -16,11 +16,11 @@ export default class TopBar extends Component {
               <li>
                 <form role="search" className="navbar-left app-search pull-left hidden-xs">
                   <input type="text" placeholder="Поиск..." className="form-control" />
-                  <a href="crm-opportunities.html"><i className="fa fa-search"></i></a>
+                  <a href=""><i className="fa fa-search"></i></a>
                 </form>
               </li>
               <li className="dropdown hidden-xs">
-                <a href="crm-opportunities.html#" data-target="#" className="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
+                <a href="" data-target="#" className="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
                   <i className="icon-bell"></i> <span className="badge badge-xs badge-danger">3</span>
                 </a>
                 <ul className="dropdown-menu dropdown-menu-lg">
@@ -42,7 +42,7 @@ export default class TopBar extends Component {
                     </a>
 
 
-                    <a href="javascript:void(0);" className="list-group-item">
+                    <a href="" className="list-group-item">
                       <div className="media">
                         <div className="pull-left p-r-10">
                           <em className="fa fa-cog fa-2x text-custom"></em>
@@ -57,7 +57,7 @@ export default class TopBar extends Component {
                     </a>
 
 
-                    <a href="javascript:void(0);" className="list-group-item">
+                    <a href="" className="list-group-item">
                       <div className="media">
                         <div className="pull-left p-r-10">
                           <em className="fa fa-bell-o fa-2x text-danger"></em>
@@ -125,8 +125,8 @@ export default class TopBar extends Component {
               </li>
 
               <li className="dropdown">
-                <a href="crm-opportunities.html" className="dropdown-toggle waves-effect waves-light profile" data-toggle="dropdown" aria-expanded="true">
-                  <img src="/images/users/avatar-1.jpg" alt="user-img" className="img-circle" /> </a>
+                <a href="" className="dropdown-toggle waves-effect waves-light profile">
+                  <img src="/images/j_PM7SNdw84.jpg" alt="user-img" className="img-circle" /> </a>
                 <ul className="dropdown-menu">
                   <li><a href="javascript:void(0)"><i className="ti-user m-r-5"></i> Profile</a></li>
                   <li><a href="javascript:void(0)"><i className="ti-settings m-r-5"></i> Settings</a></li>

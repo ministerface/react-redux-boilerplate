@@ -19,11 +19,11 @@ export default class NavBar extends Component {
                 <NavLink to="/project"><i className="md md-layers"></i>Проекты</NavLink>
               </li>
               <li className="has-submenu">
-                <a href="crm-opportunities.html#"><i className="md md-class"></i>Финансы</a>
+                <a href=""><i className="md md-class"></i>Финансы</a>
               </li>
 
               <li className="has-submenu">
-                <a href="crm-opportunities.html#"><i className="md md-pages"></i>Заказчики</a>
+                <a href=""><i className="md md-pages"></i>Заказчики</a>
               </li>
               </ul>
             </div>

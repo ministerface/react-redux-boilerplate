@@ -11,9 +11,9 @@ export default class TodosGrid extends Component {
   render() {
 
     const { todos } = this.props;
-    const todosTemplate = todos.map(function(item, index) {
+    const todosTemplate = todos.map((item, index) => {
       return (
-        <Todo key={item.id} todo={item}/>
+        <Todo key={item.id} todo={item} index={index} {...this.props}/>
       )
     });
 

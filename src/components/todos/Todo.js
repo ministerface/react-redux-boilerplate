@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 
 export default class Todo extends Component {
 
+
+
   render() {
-    const { name, text, project, created, updated, status } = this.props.todo;
+    const { id, name, text, project, created, updated, status } = this.props.todo;
+    const index = this.props.index;
     return (
       <div className="card-box m-b-10">
         <div className="table-box opport-box">
@@ -33,7 +36,7 @@ export default class Todo extends Component {
 
           <div className="table-detail table-actions-bar">
             <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-edit"></i></a>
-            <a href="crm-opportunities.html#" className="table-action-btn"><i className="md md-close"></i></a>
+            <a onClick={this.props.actionTodos.removeTodo.bind(null, index)}  className="table-action-btn"><i className="md md-close"></i></a>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ export default class Project extends Component {
         <div className="row">
           <div className="col-sm-12">
             <div className="btn-group pull-right m-t-15">
-              <button type="button" className="btn btn-default dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">Settings <span className="m-l-5"><i className="fa fa-cog"></i></span></button>
+              <button type="button" className="btn btn-default dropdown-toggle waves-effect waves-light">Настройка <span className="m-l-5"><i className="fa fa-cog"></i></span></button>
               <ul className="dropdown-menu" role="menu">
                 <li><a href="extra-profile.html#">Action</a></li>
                 <li><a href="extra-profile.html#">Another action</a></li>
@@ -35,8 +35,8 @@ export default class Project extends Component {
           <div className="col-sm-5 col-md-4 col-lg-3">
             <div className="profile-detail card-box">
               <div>
-                <img src="../../images/users/avatar-2.jpg" className="img-circle" alt="profile-image" />
 
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <ul className="list-inline status-list m-t-20">
                   <li>
                     <h3 className="text-primary m-b-5">60</h3>
@@ -52,7 +52,7 @@ export default class Project extends Component {
                 <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">Secure Transaction</h4>
+
                 <p className="text-muted font-13 m-b-30">
                   Разработка сервиса для безопасных сделок в интернете
                 </p>
@@ -77,8 +77,8 @@ export default class Project extends Component {
           <div className="col-sm-5 col-md-4 col-lg-3">
             <div className="profile-detail card-box">
               <div>
-                <img src="../../images/users/avatar-2.jpg" className="img-circle" alt="profile-image" />
 
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <ul className="list-inline status-list m-t-20">
                   <li>
                     <h3 className="text-primary m-b-5">60</h3>
@@ -94,7 +94,7 @@ export default class Project extends Component {
                 <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">Secure Transaction</h4>
+
                 <p className="text-muted font-13 m-b-30">
                   Разработка сервиса для безопасных сделок в интернете
                 </p>
@@ -119,8 +119,8 @@ export default class Project extends Component {
           <div className="col-sm-5 col-md-4 col-lg-3">
             <div className="profile-detail card-box">
               <div>
-                <img src="../../images/users/avatar-2.jpg" className="img-circle" alt="profile-image" />
 
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <ul className="list-inline status-list m-t-20">
                   <li>
                     <h3 className="text-primary m-b-5">60</h3>
@@ -136,7 +136,7 @@ export default class Project extends Component {
                 <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">Secure Transaction</h4>
+
                 <p className="text-muted font-13 m-b-30">
                   Разработка сервиса для безопасных сделок в интернете
                 </p>
@@ -161,8 +161,8 @@ export default class Project extends Component {
           <div className="col-sm-5 col-md-4 col-lg-3">
             <div className="profile-detail card-box">
               <div>
-                <img src="../../images/users/avatar-2.jpg" className="img-circle" alt="profile-image" />
 
+                <h4 className="text-uppercase font-600">Secure Transaction</h4>
                 <ul className="list-inline status-list m-t-20">
                   <li>
                     <h3 className="text-primary m-b-5">60</h3>
@@ -178,7 +178,7 @@ export default class Project extends Component {
                 <button type="button" className="btn btn-pink btn-custom waves-effect waves-light">Посмотреть</button>
 
                 <hr />
-                <h4 className="text-uppercase font-600">Secure Transaction</h4>
+
                 <p className="text-muted font-13 m-b-30">
                   Разработка сервиса для безопасных сделок в интернете
                 </p>
@@ -199,7 +199,7 @@ export default class Project extends Component {
             </div>
 
           </div>
-
+          
 
         </div>
 

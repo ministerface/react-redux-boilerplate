@@ -7,18 +7,18 @@ export default class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-xs-6">
-              2016 © Ubold.
+              2016 © More Time.
             </div>
             <div className="col-xs-6">
               <ul className="pull-right list-inline m-b-0">
                 <li>
-                  <a href="crm-opportunities.html#">About</a>
+                  <a href="">О сервисе</a>
                 </li>
                 <li>
-                  <a href="crm-opportunities.html#">Help</a>
+                  <a href="">Помощь</a>
                 </li>
                 <li>
-                  <a href="crm-opportunities.html#">Contact</a>
+                  <a href="">Контакты</a>
                 </li>
               </ul>
             </div>

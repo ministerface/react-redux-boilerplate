@@ -28,7 +28,7 @@ const store = createStore(
  const store = compose(
      applyMiddleware(thunkMiddleware),
      applyMiddleware(redirect),
-     applyMiddleware(logger)
+     applyMiddleware(logger),
    )(createStore)(rootReducer, defaultState);
 
 store.subscribe(() => {

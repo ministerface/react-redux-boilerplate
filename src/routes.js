@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import App from './containers/App';
-import Project from './components/project/Project';
+import Projects from './containers/Projects';
 import Todos from './containers/Todos';
 import DashBoard from './containers/DashBoard';
 import NewTodo from './components/todos/NewTodo';
@@ -14,6 +14,6 @@ export const routes = (
       <Route name="Новая задача" path="new" component={NewTodo} />
       <Route name="Новая задача" path=":todo/edit" component={NewTodo} />
     </Route>
-    <Route name="Проекты" path="project" component={Project} />
+    <Route name="Проекты" path="projects" component={Projects} />
   </Route>
 );

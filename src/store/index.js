@@ -8,9 +8,12 @@ import thunkMiddleware from 'redux-thunk';
 import { redirect } from '../middlewares/redirect';
 
 import todos from '../data/todos';
+import projects from '../data/projects';
+
 
 const currentState = {
   todos,
+  projects,
   dashboard: {}
 };
 
@@ -30,6 +33,7 @@ const store = createStore(
      applyMiddleware(redirect),
      applyMiddleware(logger),
    )(createStore)(rootReducer, defaultState);
+
 
 store.subscribe(() => {
   saveState(store.getState());

@@ -16,7 +16,7 @@ export default class NavBar extends Component {
                 <NavLink to="/todos"><i className="md md-color-lens"></i>Задачи</NavLink>
               </li>
               <li className="has-submenu">
-                <NavLink to="/project"><i className="md md-layers"></i>Проекты</NavLink>
+                <NavLink to="/projects"><i className="md md-layers"></i>Проекты</NavLink>
               </li>
               <li className="has-submenu">
                 <a href=""><i className="md md-class"></i>Финансы</a>
@@ -25,9 +25,9 @@ export default class NavBar extends Component {
               <li className="has-submenu">
                 <a href=""><i className="md md-pages"></i>Заказчики</a>
               </li>
-              </ul>
-            </div>
+            </ul>
           </div>
+        </div>
         </div>
     );
   }

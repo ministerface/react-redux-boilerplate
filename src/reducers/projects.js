@@ -1,4 +1,4 @@
-import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO, CREATE_FANTOM_TODO } from '../constants/todos';
+import { ADD_PROJECT, REMOVE_PROJECT } from '../constants/projects';
 
 import { v4 } from 'node-uuid';
 
@@ -7,7 +7,7 @@ function projects(state = [], action) {
 
   switch (action.type) {
 
-    case ADD_TODO:
+    case ADD_PROJECT:
 
     return [
       {
@@ -22,27 +22,12 @@ function projects(state = [], action) {
       ...state
     ]
 
-
-    case TOGGLE_TODO:
-      return state.map((todo, index) => {
-        if (index === action.index) {
-          return Object.assign({}, todo, {
-            finish: !todo.finish
-          })
-        }
-        return todo
-      })
-
-
-    case REMOVE_TODO:
-
+    case REMOVE_PROJECT:
 
         return [
           ...state.slice(0, action.index),
           ...state.slice(action.index + 1)
         ]
-
-
 
     default:
       return state;

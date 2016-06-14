@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import MainProjects from '../components/project/MainProjects';
-//import * as actionTodos from '../actions/todos';
+import * as actionProjects from '../actions/projects';
 
 
 const mapStateToProps = (state) => {
@@ -10,15 +10,15 @@ const mapStateToProps = (state) => {
   }
 }
 
-/*
+
 const mapDispatchToProps = (dispatch) => {
   return {
-    actionTodos: bindActionCreators(actionTodos, dispatch)
+    actionProjects: bindActionCreators(actionProjects, dispatch)
   }
 }
-*/
 
 
-const Projects = connect(mapStateToProps)(MainProjects);
+
+const Projects = connect(mapStateToProps, mapDispatchToProps)(MainProjects);
 
 export default Projects;

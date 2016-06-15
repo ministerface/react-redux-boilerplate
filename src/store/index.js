@@ -14,12 +14,17 @@ import projects from '../data/projects';
 const currentState = {
   todos,
   projects,
-  dashboard: {}
+  dashboard: {},
+  app: {
+    modals: {
+      newProject: false
+    },
+  }
 };
 
 const logger = createLogger();
 
-const defaultState = loadState(currentState);
+//const defaultState = loadState(currentState);
 /*
 const store = createStore(
    rootReducer,
@@ -32,12 +37,13 @@ const store = createStore(
      applyMiddleware(thunkMiddleware),
      applyMiddleware(redirect),
      applyMiddleware(logger),
-   )(createStore)(rootReducer, defaultState);
+   )(createStore)(rootReducer, currentState);
 
-
+/*
 store.subscribe(() => {
   saveState(store.getState());
 });
+*/
 
 export const history = syncHistoryWithStore(browserHistory, store);
 export default store;

@@ -6,9 +6,7 @@ import { Modal } from 'react-bootstrap';
 export default class AddProject extends Component {
   constructor(props){
     super(props);
-    console.log(props);
   }
-
 
   openModal(e) {
     e.preventDefault();
@@ -26,45 +24,45 @@ export default class AddProject extends Component {
              <Modal.Title>Новый проект</Modal.Title>
            </Modal.Header>
            <Modal.Body>
-             <form className="form-horizontal">
+             <form ref="addProjectForm" className="form-horizontal">
                <div className="form-group">
                  <label className="col-md-2 control-label">Название</label>
                  <div className="col-md-10">
-                   <input type="text" className="form-control" value="" />
+                   <input ref="name" type="text" className="form-control" value="" />
                  </div>
                </div>
 
                <div className="form-group">
                  <label className="col-md-2 control-label">Описание</label>
                  <div className="col-md-10">
-                   <textarea className="form-control" rows="2"></textarea>
+                   <textarea ref="description" className="form-control" rows="2"></textarea>
                  </div>
                </div>
 
                <div className="form-group">
                  <label className="col-md-2 control-label">Бюджет</label>
                  <div className="col-md-10">
-                   <input type="text" className="form-control" placeholder="" />
+                   <input ref="budget" type="text" className="form-control" placeholder="" />
                  </div>
                </div>
                <div className="form-group">
                  <label className="col-md-2 control-label">Сроки </label>
                  <div className="col-md-10">
-                   <input type="text" className="form-control" placeholder="" />
+                   <input ref="range" type="text" className="form-control" placeholder="" />
                  </div>
                </div>
 
                <div className="form-group">
                  <label className="col-md-2 control-label">Заказчик</label>
                  <div className="col-md-10">
-                   <input type="text" className="form-control" value="" />
+                   <input ref="customer" type="text" className="form-control" value="" />
                  </div>
                </div>
 
                <div className="form-group">
                  <label className="col-md-2 control-label">Телефон</label>
                  <div className="col-md-10">
-                   <input type="text" className="form-control" value="" />
+                   <input ref="phone" type="text" className="form-control" value="" />
                  </div>
                </div>
 
@@ -72,14 +70,14 @@ export default class AddProject extends Component {
                <div className="form-group">
                  <label className="col-md-2 control-label" for="example-email">Email</label>
                  <div className="col-md-10">
-                   <input type="email" id="example-email" name="example-email" className="form-control" placeholder="" />
+                   <input ref="email" type="email" id="example-email" name="example-email" className="form-control" placeholder="" />
                  </div>
                </div>
 
                <div className="form-group">
                  <label className="col-md-2 control-label">Город</label>
                  <div className="col-md-10">
-                   <input type="text" className="form-control" value="" />
+                   <input ref="city" type="text" className="form-control" value="" />
                  </div>
                </div>
 

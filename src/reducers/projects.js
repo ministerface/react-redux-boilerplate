@@ -8,9 +8,19 @@ function projects(state = [], action) {
 
     case ADD_PROJECT:
       const stateCurrent = List(state);
-      const stateNext = stateCurrent.push({
+      const stateNext = stateCurrent.unshift({
         id: v4(),
-        name: action.name
+        name: action.name,
+        description: action.description,
+        budget: action.budget,
+        range: action.range,
+        customer: action.customer,
+        phone: action.phone,
+        email: action.email,
+        city: action.city,
+        status: "Новай проект",
+        created: Date.now(),
+        updated: Date.now()
       });
 
 

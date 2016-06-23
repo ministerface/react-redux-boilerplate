@@ -3,21 +3,22 @@ import Breadcrumbs from 'react-breadcrumbs';
 export default class Project extends Component {
 
   render() {
+  const { name, budget, range } = this.props.project;
     return (
       <div>
         <div className="col-sm-5 col-md-4 col-lg-3">
           <div className="profile-detail card-box">
             <div>
 
-              <h4 className="text-uppercase font-600">Secure Transaction</h4>
+              <h4 className="text-uppercase font-600">{ name }</h4>
               <ul className="list-inline status-list m-t-20">
                 <li>
-                  <h3 className="text-primary m-b-5">60</h3>
+                  <h3 className="text-primary m-b-5">{ range }</h3>
                   <p className="text-muted">Срок</p>
                 </li>
 
                 <li>
-                  <h3 className="text-success m-b-5">50 000</h3>
+                  <h3 className="text-success m-b-5">{ budget }</h3>
                   <p className="text-muted">Бюджет</p>
                 </li>
               </ul>

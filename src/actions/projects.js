@@ -4,13 +4,16 @@ import {
 } from '../constants/projects';
 
 
-export const addProject = (name, customer, range, budget) => ({
+export const addProject = (name, description, budget, range, customer, phone, email, city  ) => ({
     type: ADD_PROJECT,
     name,
-    customer,
-    range,
+    description,
     budget,
-    status
+    range,
+    customer,
+    phone,
+    email,
+    city
 });
 
 export const removeProject = (index) => ({

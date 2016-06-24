@@ -1,7 +1,7 @@
 const projects = [
   {
     "id": "56",
-    "name": "Модуль авторизации через соц. сети",
+    "name": "Interactive Home",
     "description": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
     "budget": "100",
     "range": "20",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     "id": "57",
-    "name": "Модуль магазина",
+    "name": "ElitPlan",
     "description": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
     "budget": "100",
     "range": "20",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     "id": "58",
-    "name": "Купить домен",
+    "name": "Secure Transaction",
     "description": "Lorem Ipsum - это текст-рыба, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века.",
     "budget": "100",
     "range": "20",

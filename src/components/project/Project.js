@@ -3,7 +3,7 @@ import Breadcrumbs from 'react-breadcrumbs';
 export default class Project extends Component {
 
   render() {
-  const { name, budget, range } = this.props.project;
+  const { name, description, budget, range, customer, phone, email, city } = this.props.project;
     return (
       <div>
         <div className="col-sm-5 col-md-4 col-lg-3">
@@ -28,17 +28,17 @@ export default class Project extends Component {
               <hr />
 
               <p className="text-muted font-13 m-b-30">
-                Разработка сервиса для безопасных сделок в интернете
+                { description }
               </p>
 
               <div className="text-left">
-                <p className="text-muted font-13"><strong>Заказчик :</strong> <span className="m-l-15">Роман</span></p>
+                <p className="text-muted font-13"><strong>Заказчик :</strong> <span className="m-l-15">{ customer }</span></p>
 
-                <p className="text-muted font-13"><strong>Телефон :</strong><span className="m-l-15">8 (123) 123-12-34</span></p>
+                <p className="text-muted font-13"><strong>Телефон :</strong><span className="m-l-15">{ phone }</span></p>
 
-                <p className="text-muted font-13"><strong>E-mail :</strong> <span className="m-l-15">test@gmail.com</span></p>
+                <p className="text-muted font-13"><strong>E-mail :</strong> <span className="m-l-15">{ email }</span></p>
 
-                <p className="text-muted font-13"><strong>Город :</strong> <span className="m-l-15">Новочеркасск</span></p>
+                <p className="text-muted font-13"><strong>Город :</strong> <span className="m-l-15">{ city }</span></p>
 
               </div>
 

@@ -10,8 +10,6 @@ import { redirect } from '../middlewares/redirect';
 import todos from '../data/todos';
 import projects from '../data/projects';
 
-import { fromJS } from 'immutable';
-
 
 
 const currentState = {

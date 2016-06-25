@@ -6,7 +6,8 @@ import * as actionTodos from '../actions/todos';
 
 const mapStateToProps = (state) => {
   return {
-    todos: state.todos
+    todos: state.todos,
+    lists: state.app.lists.projects
   }
 }
 

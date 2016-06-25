@@ -21,7 +21,8 @@ export default class TodosGrid extends Component {
     const childrenWithProps = React.Children.map(this.props.children,
      (child) => React.cloneElement(child, {
        addTodo: this.props.actionTodos.addTodo,
-       redirect: this.props.actionTodos.redirect
+       redirect: this.props.actionTodos.redirect,
+       lists: this.props.lists
      })
     );
 

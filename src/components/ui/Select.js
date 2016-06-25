@@ -2,12 +2,17 @@ import React, { Component } from 'react';
 
 export default class Select extends Component {
   render() {
-    return (
-        <select name={this.props.name} className="form-control">
-          <option>Не важно</option>
-          <option value="Interactive Home">Interactive Home</option>
-          <option value="RuPlans">RuPlans</option>
-          <option value="Secure Transaction">Secure Transaction</option>
+
+    const { data } = this.props;
+    const dataTemplate = data.map((item, index) => {
+      return (
+        <option id={ index } value={ item }>{ item }</option>
+        )
+      });
+
+      return (
+          <select name={this.props.name} className="form-control">
+            {dataTemplate}
         </select>
     );
   }

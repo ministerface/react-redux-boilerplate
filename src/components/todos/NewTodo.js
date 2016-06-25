@@ -17,6 +17,12 @@ export default class NewTodo extends Component {
   }
 
   render() {
+    console.log(this.props);
+
+    const { lists } = this.props;
+
+
+
     return (
       <div className="row">
         <div className="col-lg-12">
@@ -34,7 +40,7 @@ export default class NewTodo extends Component {
 
               <div className="form-group">
                 <label htmlFor="emailAddress">Проект</label>
-                <Select name='project'/>
+                <Select name='project' data={lists}/>
               </div>
 
               <div className="form-group">

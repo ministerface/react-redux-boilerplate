@@ -9,8 +9,6 @@ import { redirect } from '../middlewares/redirect';
 
 import todos from '../data/todos';
 import projects from '../data/projects';
-import lists from '../data/lists';
-
 
 const currentState = {
   todos,
@@ -19,8 +17,7 @@ const currentState = {
   app: {
     modals: {
       newProject: false
-    },
-    lists
+    }
   }
 };
 

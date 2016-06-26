@@ -1,13 +1,10 @@
 import {
   ADD_TODO,
   TOGGLE_TODO,
-  REMOVE_TODO,
-  CREATE_FANTOM_TODO
+  REMOVE_TODO
  } from '../constants/todos';
 
  import { ROUTING } from '../constants/Routing';
-
-
 
 
 export const addTodo = (name, text, project) => ({

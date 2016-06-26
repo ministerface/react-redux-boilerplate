@@ -6,7 +6,7 @@ export default class Select extends Component {
     const { data } = this.props;
     const dataTemplate = data.map((item, index) => {
       return (
-        <option id={ index } value={ item }>{ item }</option>
+        <option key={ index } value={ item }>{ item }</option>
         )
       });
 

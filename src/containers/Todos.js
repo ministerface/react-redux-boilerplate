@@ -5,9 +5,16 @@ import * as actionTodos from '../actions/todos';
 
 
 const mapStateToProps = (state) => {
+
+
+  const listProjects = state.projects.map((item, index) => {
+      return item.name;
+    });
+
+
   return {
     todos: state.todos,
-    lists: state.app.lists.projects
+    lists: listProjects
   }
 }
 

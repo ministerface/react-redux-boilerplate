@@ -1,5 +1,4 @@
-import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO, CREATE_FANTOM_TODO } from '../constants/todos';
-
+import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO } from '../constants/todos';
 import { v4 } from 'node-uuid';
 
 

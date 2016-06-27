@@ -8,9 +8,8 @@ export default class MainTodos extends Component {
     super(props);
   }
 
-  createFantomTodo(e) {
-    e.preventDefault();
-    this.props.createFantomTodo();
+  test(e) {
+    console.log(this.props.actionTodos.getPhotos(123));
   }
 
   render() {
@@ -43,6 +42,10 @@ export default class MainTodos extends Component {
             />
           </div>
         </div>
+
+
+        {/*<div onClick={::this.test} >Тест</div>*/}
+
 
         <div className="row">
           <div className="col-md-6">

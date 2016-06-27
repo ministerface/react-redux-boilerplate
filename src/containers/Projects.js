@@ -11,7 +11,6 @@ const mapStateToProps = (state) => {
   }
 }
 
-
 const mapDispatchToProps = (dispatch) => {
   return {
     actionProjects: bindActionCreators(actionProjects, dispatch),

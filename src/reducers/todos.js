@@ -7,6 +7,14 @@ function todos(state = [], action) {
 
   switch (action.type) {
 
+    case "GET_PHOTOS_REQUEST":
+      console.log(123);
+
+    case "GET_PHOTOS_SUCCESS":
+      console.log(12334);
+
+
+
     case ADD_TODO:
 
     return [

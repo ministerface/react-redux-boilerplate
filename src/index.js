@@ -6,8 +6,8 @@ import store, { history } from './store/index';
 import { routes } from './routes';
 
 const router = (
-  <Provider store={store}>
-    <Router history={history} routes={routes} />
+  <Provider store={ store }>
+    <Router history={ history } routes={ routes } />
   </Provider>
 );
 

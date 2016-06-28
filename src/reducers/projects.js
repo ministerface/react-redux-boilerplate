@@ -3,64 +3,33 @@ import { v4 } from 'node-uuid';
 import { List, Map } from 'immutable';
 import crio from 'crio';
 
-function projects(state = [], action) {
+export default function projects(state = [], action) {
+    switch (action.type) {
+        case ADD_PROJECT:
+            return [{
+                    id: v4(),
+                    name: action.name,
+                    description: action.description,
+                    budget: action.budget,
+                    range: action.range,
+                    customer: action.customer,
+                    phone: action.phone,
+                    email: action.email,
+                    city: action.city,
+                    status: 'Новай проект',
+                    created: Date.now(),
+                    updated: Date.now()
+                },
+                ...state
+            ];
 
-  switch (action.type) {
+        case REMOVE_PROJECT:
+            return [
+                ...state.slice(0, action.index),
+                ...state.slice(action.index + 1)
+            ]
 
-    case ADD_PROJECT:
-
-    return [
-      {
-      id: v4(),
-      name: action.name,
-      description: action.description,
-      budget: action.budget,
-      range: action.range,
-      customer: action.customer,
-      phone: action.phone,
-      email: action.email,
-      city: action.city,
-      status: "Новай проект",
-      created: Date.now(),
-      updated: Date.now()
-    }, 
-      ...state
-    ];
-
-    /*
-      const stateCurrent = List(state);
-      const stateNext = stateCurrent.unshift({
-        id: v4(),
-        name: action.name,
-        description: action.description,
-        budget: action.budget,
-        range: action.range,
-        customer: action.customer,
-        phone: action.phone,
-        email: action.email,
-        city: action.city,
-        status: "Новай проект",
-        created: Date.now(),
-        updated: Date.now()
-      });
-
-
-    return stateNext;
-    */
-
-    //return nextState;
-
-    case REMOVE_PROJECT:
-
-        return [
-          ...state.slice(0, action.index),
-          ...state.slice(action.index + 1)
-        ]
-
-    default:
-      return state;
-  }
-
+        default:
+            return state;
+    }
 }
-
-export default projects;

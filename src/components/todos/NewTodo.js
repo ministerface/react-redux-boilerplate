@@ -17,12 +17,7 @@ export default class NewTodo extends Component {
   }
 
   render() {
-    console.log(this.props);
-
     const { lists } = this.props;
-
-
-
     return (
       <div className="row">
         <div className="col-lg-12">
